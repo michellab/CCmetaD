@@ -1,1 +1,3 @@
 # CCmetaD
+
+This repository contains data, scripts and notebooks to run free energy calculations for coiled coils, according to the protocols in "Prediction of Coiled Coil Topology and Oligomerisation State with Restrained Metadynamics Simulations" ..URL...
