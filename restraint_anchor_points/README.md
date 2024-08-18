@@ -26,12 +26,12 @@ Below are the anchor points for the Boresch restraints for each complex, and the
 
 | Anchor Point    | Residue                       | Angle   |  Value (&#176;)|
 |------------|-----------------------------------|---------|------------|
-| c  |           | &theta;_A|  |
-| b |           | &theta;_B|  |
-| a  |          | &phi;_A  |  |
-| A  |           | &phi;_B  |  |
-| B  |          | &phi;_C  |  |
-| C |        |   | |
+| c  |   Leu 14        | &theta;_A| 76 |
+| b |    Lys 16       | &theta;_B| 24 |
+| a  |   Asn 18       | &phi;_A  | 41 |
+| A  |   Lys 63        | &phi;_B  | -141  |
+| B  |   Leu 55       | &phi;_C  | -140 |
+| C |    Gln 64    |   | |
 
 ### Trimeric CC-Di - trimer step
 
