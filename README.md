@@ -5,7 +5,7 @@ This repository contains data and code to run and analyse free energy calculatio
 ## Contents
 
 
-## Package Requirements
+## Requirements
 
 
 ## Citation
