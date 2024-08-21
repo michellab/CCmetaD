@@ -1,1 +1,1 @@
-The file restraint_anchor_points.csv  contains the anchor points for the Boresch restraints for each complex and intermediate state, and the equilibrium values of the Boresch angles and dihedrals. Each anchor point is the C&alpha; atom of the respective residue.
+The file restraint_anchor_points.csv  contains the anchor points for the Boresch restraints for each complex and intermediate state, and the equilibrium values of the Boresch angles and dihedrals. Each anchor point is the C&alpha; atom of the respective residue. Angles and dihedrals are reported in degrees.
