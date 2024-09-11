@@ -52,9 +52,9 @@ boresch_phi_b.addTorsion(b_idx, a_idx, A_idx, B_idx)
 boresch_phi_c = CustomTorsionForce('theta')
 boresch_phi_c.addTorsion(a_idx, A_idx, B_idx, C_idx)
 ```
-Appropriate ```cv_min``` and ```cv_max``` values must be chosen for each angle and torsion (in radians).
+Appropriate ```cv_min``` and ```cv_max``` values must be chosen to bias each angle and torsion (in radians).
 
-Note that each angle and torsion PMF calculation is done in the presence of previously added restraints (e.g. the theta_b PMF calculation is done with theta_a restrained to its equilibrium value).
+Note that each angle and torsion PMF calculation is done in the presence of only those restraints whose PMFs have been calculated beforehand (e.g. the theta_b PMF calculation is done with theta_a restrained to its equilibrium value, and the phi_a PMF calculation is done with both theta_a and theta_b restrained to their equilibrium values, etc.).
 
 The notebook **metadynamics_analysis.ipynb** combines the simulation output files (cv_range.txt and fe_norm_kcal.txt) into a single file (requirement for free_energy_analysis.ipynb), and plots the PMF profiles. The files from each simulation replicate must be in directories called ```replicate-1/```, ```replicate-2/``` etc.
 
@@ -67,7 +67,7 @@ The notebook **free_energy_analysis.ipynb** analyses the free energy contributio
 5_boresch_phi_c/
 6_separation/
 ```
-If RMSD restraints are used, their simulation files should be placed in directories called ```rmsd_bound``` and ```rmsd_unbound```.
+If RMSD restraints are used, their simulation files should be placed in directories called ```rmsd_bound/``` and ```rmsd_unbound/```.
 
 An RMSD collective variable is defined as follows:
 ```
