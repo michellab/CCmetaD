@@ -97,7 +97,7 @@ pdb = PDBFile(pdb_file)
 system = prmtop.createSystem(nonbondedMethod=NoCutoff, constraints=HBonds, hydrogenMass=1.5*amu, 
                              implicitSolvent=OBC2)
 
-
+# definition of Collective Variable
 dist = CustomCentroidBondForce(2, 'distance(g1,g2)')
 dist.addGroup(chain1)
 dist.addGroup(chain2)
