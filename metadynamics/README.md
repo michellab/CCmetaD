@@ -75,7 +75,7 @@ rmsd_cv = RMSDForce(pdb.positions, backbone_receptor)
 ```
 where ```backbone_receptor``` is a list containing the atom indices of the receptor backbone atoms.
 
-If RMSD restraints are used, the subsequent Boresch angle and torsion PMF calculations must be done in the presence of RMSD restraints. A harmonic restraint can be placed on the RMSD CV as follows:
+If RMSD restraints are used, the subsequent Boresch angle/torsion and separation PMF calculations must be done in the presence of RMSD restraints. A harmonic restraint can be placed on the RMSD CV as follows:
 ```
 rmsd_cv = RMSDForce(pdb.positions, backbone_receptor) 
 rmsd_receptor = CustomCVForce('0.5*k_rmsd*(rmsd-rmsd_target)^2')
