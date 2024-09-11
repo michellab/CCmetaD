@@ -1,1 +1,1 @@
-
+Each directory contains ISAMBARD designs with a given sequence (e.g. the CC-Di folder contains various coiled coils whose monomers have the sequence of a monomer from CC-Di). The notebooks contain the geometric descriptors of the designs and the convergence plots (funnel analysis) of the design process. The PDB files are the designs used in simulations.
