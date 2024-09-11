@@ -56,9 +56,9 @@ Appropriate ```cv_min``` and ```cv_max``` values must be chosen for each angle a
 
 Note that each angle and torsion PMF calculation is done in the presence of previously added restraints (e.g. the theta_b PMF calculation is done with theta_a restrained to its equilibrium value).
 
-The notebook **metadynamics_analysis.ipynb** combines the simulation output files (cv_range.txt and fe_norm_kcal.txt) into a single file in order for the free energy contribution of each step to be calculated, and plots the PMF profiles. The files from each simulation replicate must be in directories called ```replicate-1/```, ```replicate-2/``` etc.
+The notebook **metadynamics_analysis.ipynb** combines the simulation output files (cv_range.txt and fe_norm_kcal.txt) into a single file (requirement for free_energy_analysis.ipynb), and plots the PMF profiles. The files from each simulation replicate must be in directories called ```replicate-1/```, ```replicate-2/``` etc.
 
-The notebook **free_energy_analysis.ipynb** analyses the free energy contributions from each PMF step. The individual steps must be placed in directories called:
+The notebook **free_energy_analysis.ipynb** analyses the free energy contributions from each PMF step. The individual steps and their replicates must be placed in directories called:
 ```
 1_boresch_theta_a/
 2_boresch_theta_b/
