@@ -54,7 +54,7 @@ boresch_phi_c.addTorsion(a_idx, A_idx, B_idx, C_idx)
 ```
 Appropriate ```cv_min``` and ```cv_max``` values must be chosen for each angle and torsion (in radians).
 
-Note that each angle and torsion PMF calculation is done in the presence of previously added restraints (e.g. the theta_b PMF calculation is done with theta_a restrained to its equilibrium value), with the exception of the theta_a PMF calculation which is done without any Boresch restraints.
+Note that each angle and torsion PMF calculation is done in the presence of previously added restraints (e.g. the theta_b PMF calculation is done with theta_a restrained to its equilibrium value).
 
 The notebook **metadynamics_analysis.ipynb** combines the simulation output files (cv_range.txt and fe_norm_kcal.txt) into a single file in order for the free energy contribution of each step to be calculated, and plots the PMF profiles. The files from each simulation replicate must be in directories called ```replicate-1/```, ```replicate-2/``` etc.
 
