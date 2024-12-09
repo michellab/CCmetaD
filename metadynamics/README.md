@@ -14,7 +14,7 @@ The notebook **free_energy_analysis.ipynb** analyses the free energy contributio
 6_separation/
 ```
 
-The directory **CC-Di_PMF_data" contains example data from the CC-Di simulations.
+The directory **CC-Di_PMF_data** contains example data from the CC-Di simulations.
 
 If RMSD restraints are used, their simulation files should be placed in directories called ```rmsd_bound/``` and ```rmsd_unbound/```.
 
