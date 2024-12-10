@@ -12,9 +12,12 @@ Coils Using Metadynamics with Conformational Restraints'.
 **restraints**: code for selecting anchor points and list of anchor points selected for each system along with equilibrium values.
 
 ## Requirements
-[OpenMM](https://openmm.org/)
+[OpenMM](https://openmm.org/) v7.5
 
-[MDTraj](https://mdtraj.org/1.9.4/index.html)
+``conda install -c conda-forge openmm``
 
+[MDTraj](https://mdtraj.org/1.9.4/index.html) v1.9.6
+
+``conda install -c conda-forge mdtraj``
 ## Citation
 TBD
