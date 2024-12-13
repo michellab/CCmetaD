@@ -20,4 +20,4 @@ Coils Using Metadynamics with Conformational Restraints'.
 
 ``conda install -c conda-forge mdtraj``
 ## Citation
-TBD
+Notari E., Wood C.W., Michel J. Assessment of the Topology and Oligomerisation States of Coiled Coils Using Metadynamics with Conformational Restraints, ChemRxiv, [10.26434/chemrxiv-2024-t02df](10.26434/chemrxiv-2024-t02df)
